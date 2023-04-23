@@ -1,19 +1,55 @@
-/* Global styles */
 body {
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  margin: 0;
-  padding: 0;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
 }
 
-/* Header styles */
-header {
-  background-color: #333;
-  color: #fff;
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem;
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
+
+nav li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+nav li a {
+	color: #333;
+	text-decoration: none;
+}
+
+header {
+	background-color: #eee;
+	padding: 20px;
+	text-align: center;
+}
+
+h1, h2 {
+	margin: 0;
+}
+
+main {
+	padding: 20px;
+}
+
+section {
+	margin-bottom: 30px;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+}
+
+form label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+
 
 
